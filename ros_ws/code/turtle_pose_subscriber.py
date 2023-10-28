@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-#use the default python compiler
+#!/usr/bin/env python3
+# use the default python compiler
 
 # import ROS python library
 import rospy
