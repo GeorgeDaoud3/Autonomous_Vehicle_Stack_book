@@ -1,12 +1,11 @@
 version: '3'
 
+
 services:
   ros:
-    image: osrf/ros:noetic-desktop-focal  #ros:noetic-robot
+    image: osrf/ros:noetic-desktop-focal
     container_name: ros_container
     environment:
       DISPLAY: "host.docker.internal:0.0"
     command: tail -F anything 
     network_mode: "host"
-    volumes:
-      - ./code:/code
