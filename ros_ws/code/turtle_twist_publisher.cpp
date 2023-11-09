@@ -26,7 +26,7 @@ int main(int argc, char** argv){
 		twist_msg.linear.x=1.0;
 		twist_msg.angular.z=0.8;
 		
-		// publish tje linear and angular velocities
+		// publish the linear and angular velocities
 		pub.publish(twist_msg);
 		
 		//delay to achieve the desired publishing rate
